@@ -6,8 +6,6 @@
     #place(right + top, image("images/Picture2.jpg", width: 40%))
     #text(size: 36pt, weight: 700, [Leve(n)de Woluwe])
     
-    nan - nan
-    
     #box(image("images/Picture3.png"), height: 15pt) #text(size: 20pt, fill: orange, weight: 700, [Margot De Groote])
     #place(left + bottom, image("images/Picture4.png"))
     #pagebreak()
@@ -19,8 +17,8 @@
 
     // #grid(
     //     columns: (2fr,1fr),
-    //     rect([#align(center+horizon,[nan])], width: 100%, height: 30%, fill: rgb("#D96422")),
-    //     rect([#align(center+horizon,[nan])], width: 100%, height: 30%, fill: rgb("#6E8C2B"))
+    //     rect([#align(center+horizon,[])], width: 100%, height: 30%, fill: rgb("#D96422")),
+    //     rect([#align(center+horizon,[])], width: 100%, height: 30%, fill: rgb("#6E8C2B"))
     // )
 
     #grid(
@@ -39,8 +37,6 @@
         
         *2023-05-01 tot 2025-01-03*
         
-            *Promon-nummer: nan*
-            
             *Partners: De Werkvennootschap, Provincie Vlaams-Brabant, Zaventem*
             
         *Categorie deelproject: Water*
@@ -73,8 +69,6 @@ qui officia deserunt mollit anim id est labor
         
         *2023-05-01 tot 2025-01-03*
         
-            *Promon-nummer: nan*
-            
             *Partners: De Werkvennootschap, Provincie Vlaams-Brabant, Zaventem*
             
         *Categorie deelproject: Weiden*
@@ -100,8 +94,6 @@ qui officia deserunt mollit anim id est labor
         
         *2023-05-01 tot 2025-01-03*
         
-            *Promon-nummer: nan*
-            
             *Partners: De Werkvennootschap, Provincie Vlaams-Brabant, Zaventem*
             
         *Categorie deelproject: Wouden*

@@ -7,7 +7,7 @@ import typst
 def upload_excel(prompt):
     """Handles file upload and reads the Excel file."""
     file = st.file_uploader(prompt)
-    return pd.read_excel(file, sheet_name=0) if file else None
+    return pd.read_excel(file, sheet_name=0).fillna("") if file else None
 
 
 def select_strategic_project(df_sp):
@@ -58,9 +58,12 @@ def generate_report_text(project_details, df_dl, df_ac, project_name, dl_order):
     #image("images/Picture1.jpg") 
     #place(right + top, image("images/Picture2.jpg", width: 40%))
     #text(size: 36pt, weight: 700, [{project_name}])
-    
-    {project_details['start_date']} - {project_details['end_date']}
-    
+    """
+    if project_details['start_date'] != "":
+        text+= f"""
+            {project_details['start_date']} - {project_details['end_date']}
+        """
+    text+= f"""
     #box(image("images/Picture3.png"), height: 15pt) #text(size: 20pt, fill: orange, weight: 700, [{project_details['coordinator']}])
     #place(left + bottom, image("images/Picture4.png"))
     #pagebreak()

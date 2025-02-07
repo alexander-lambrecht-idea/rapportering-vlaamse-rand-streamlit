@@ -39,9 +39,12 @@ def generate_report_text(project_details, df_dl, df_ac, project_name):
     #image("images/Picture1.jpg") 
     #place(right + top, image("images/Picture2.jpg", width: 40%))
     #text(size: 36pt, weight: 700, [{project_name}])
-    
-    {project_details['start_date']} - {project_details['end_date']}
-    
+    """
+    if project_details['start_date'] != "":
+        text+= f"""
+            {project_details['start_date']} - {project_details['end_date']}
+        """
+    text+= f"""
     #box(image("images/Picture3.png"), height: 15pt) #text(size: 20pt, fill: orange, weight: 700, [{project_details['coordinator']}])
     #place(left + bottom, image("images/Picture4.png"))
     #pagebreak()
