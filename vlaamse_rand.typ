@@ -4,7 +4,7 @@
 #let script-size = 7.97224pt
 
 #let conf(doc) = {
-  set text(font: "Libertinus Sans")
+  set text(font: "Calibri")
   set heading(numbering: "1.")
   show heading: it => {
     if it.level == 1 {
