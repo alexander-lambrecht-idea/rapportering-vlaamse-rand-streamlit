@@ -12,8 +12,8 @@
     
     = Leve(n)de Woluwe
     
-    *Medewerkers:* Provincie Vlaams-Brabant;ANB;VLM;Beersel;Pajottenland & Zennevallei;Pepingen;
-    *Coördinerende organisatie en partners:* Provincie Vlaams-Brabant;ANB;VLM;Beersel;Pajottenland & Zennevallei;Pepingen;
+    *Medewerkers:* Provincie Vlaams-Brabant, ANB, VLM, Beersel, Pajottenland & Zennevallei, Pepingen
+    *Coördinerende organisatie en partners:* Provincie Vlaams-Brabant, ANB, VLM, Beersel, Pajottenland & Zennevallei, Pepingen
 
     // #grid(
     //     columns: (2fr,1fr),

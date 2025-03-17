@@ -26,11 +26,11 @@ def extract_project_details(df_sp, project_name):
         "medewerkers": df_sp.loc[
             row_index,
             "Welke actoren zijn initiatiefnemer binnen het strategisch project",
-        ],
+        ].replace(";",", ").rstrip(", "),
         "partners": df_sp.loc[
             row_index,
             "Welke actoren zijn initiatiefnemer binnen het strategisch project",
-        ],
+        ].replace(";",", ").rstrip(", "),
         "start_date": df_sp.loc[row_index, "Startdatum strategisch project"],
         "end_date": df_sp.loc[row_index, "Einddatum strategisch project"],
         "beschrijving": df_sp.loc[row_index, "Beschrijving"],
